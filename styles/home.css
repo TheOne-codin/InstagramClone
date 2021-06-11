@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: rgb(235, 235, 235);
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.instaLogo a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+
+.searchBox{
+    display: grid;
+    grid-template-columns: 15% 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar{
+    width: 15vw;
+    height: 2.5rem;
+}
+
+.searchBar::placeholder{
+    
+    padding: 0 3.5rem ;
+}
+
+.menuItems{
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.menuItems i{
+    font-size: 1.5rem;
+}
+
+
+.profileIcon{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: darkgrey;
+}
+
+.FeedBody{
+    justify-self: center;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedArea{
+    width: 50vw;
+    justify-self: center;
+    height: 100vh;
+    border: 1px solid red;
+    overflow-x: scroll;
+
+}
+
+.storyArea{
+    background: rgb(211, 211, 210);
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stories{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: cyan;
+}
+
+.accountSidebar{
+    width: 20vw;
+    justify-self: center;
+    height: 100vh;
+    border: 1px solid green;
+}

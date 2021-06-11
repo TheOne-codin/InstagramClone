@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.LoginScreen{
+    background-color: #f7f7f7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginImage img{
+    height: 80vh;
+}
+
+.loginForm{
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 70% 15% 15% ;
+    row-gap: 1rem;
+}
+
+.signinPart{
+    background-color: white;
+    border: 0.1px solid grey;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
+
+.loginForm .Logo{
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-self: center;
+    font-size: 2.5rem;
+}
+
+.inputs{
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 1rem;
+}
+
+.inputs input{
+    height: 2rem;
+    padding: 1rem 0.5rem;
+}
+
+.inputs input::placeholder{
+    padding: 1rem 0.5rem ;
+}
+
+.LoginBtn{
+    background: rgb(0, 102, 255);
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.inputs span{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loginFormFooter{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.signUpPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid grey;
+    background: white;
+
+}
+
+.SignUpBtn{
+    display: flex;
+    color: turquoise;
+}
