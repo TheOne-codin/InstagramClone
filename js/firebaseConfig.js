@@ -11,16 +11,4 @@ firebase.initializeApp(firebaseConfig);
 
 const auth = firebase.auth();
 
-function SignUp() {
-    let email = document.getElementById('SignUpEmail')
-    let password = document.getElementById('SignUpPassword')
-    
-    const promise = auth.createUserWithEmailAndPassword(email.value,password.value)
-    promise.then((value)=> {
-        console.log(value)
-      alert('Registration Successful!');  
-    })
-    promise.catch((e)=>{
-        alert(e.message);
-    })
-}
+

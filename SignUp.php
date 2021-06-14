@@ -19,14 +19,15 @@
         <div class="loginForm">
             <div class="signinPart">
                 <p class="Logo">Instagram</p>
-                <div class="inputs">
-                    <input type="text" id='SignUpEmail' class="Email" placeholder="phone number, email or username">
+                <form action='db.php' method='post' class="inputs">
+                    <input type="text" name='name' placeholder="Name">
+                    <input type="text" name='email' id='SignUpEmail' class="Email" placeholder="Email">
                     <input type="password" id='SignUpPassword' placeholder="Password">
-                    <button class="LoginBtn" onclick="SignUp()">Sign Up</button>
+                    <button type='submit' class="LoginBtn" onclick="SignUp()">Sign Up</button>
                     <span>
                         <p> -- OR --</p>
                     </span>
-                </div>
+                </form>
                 <div class="loginFormFooter">
                     <p><i class="fab fa-facebook-square"></i> Login With Facebook</p>
                     <p>forgot password?</p>
