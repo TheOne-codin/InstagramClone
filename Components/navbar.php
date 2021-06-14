@@ -23,7 +23,6 @@ include 'styles/home.css'
             <i class="fab fa-facebook-messenger mIcon"></i>
             <i class="far fa-compass"></i>
             <i class="far fa-heart"></i>
-<<<<<<< HEAD
             <div onclick='SignOut()' class="profileIcon">Sign Out</div>
         </div>
     </div>
@@ -36,8 +35,3 @@ include 'styles/home.css'
         })
     }
     </script>
-=======
-            <div class="profileIcon"></div>
-        </div>
-    </div>
->>>>>>> f91dccef8de01cf24f9dd89bbec9d44df016ce8f
