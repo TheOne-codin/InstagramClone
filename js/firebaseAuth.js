@@ -4,7 +4,7 @@ function SignIn() {
 
     const SignIn =  auth.signInWithEmailAndPassword(email.value, password.value)
     SignIn.then((value)=>{
-        window.location.href = "/home.html";
+        window.location.href = "/";
         alert('Signed In Successfully!!')
     })
     SignIn.catch(e => {
